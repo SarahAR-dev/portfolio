@@ -1,18 +1,21 @@
-# Sarah Aribi Portfolio — copie locale
+# Sarah Aribi — Personal Portfolio
 
-Cette archive contient une copie locale du portfolio actuellement visible sur l'adresse de développement fournie, avec sa structure React/Vite et ses composants source récupérables depuis le serveur de développement.
+Personal portfolio showcasing projects in artificial intelligence, web development, mobile applications and digital product development.
 
-## Installation
+## Focus
 
-```bash
-npm install
-npm run dev
-```
+- Artificial intelligence and data
+- Digital product development
+- Web and mobile applications
+- Clean and accessible user interfaces
 
-Puis ouvre l'adresse affichée par Vite, généralement `http://localhost:5173`.
+## Technologies
 
-## Où ajouter les démos des projets
+Python, TensorFlow, React, TypeScript, Flutter, JavaScript, SQL and Git.
 
-Le contenu des projets se trouve dans `src/App.tsx`, dans le tableau `projects`. Les liens GitHub et les liens de démo peuvent être ajoutés aux propriétés `url` et `urlLabel`. Les captures peuvent être placées dans `src/assets/` puis importées dans le composant.
+## Run locally
 
-Ne partage jamais un fichier `.env`, un token ou une clé API. Cette version a été adaptée pour fonctionner hors de Replit : les dépendances `catalog:`, les plugins Replit et les variables `PORT`/`BASE_PATH` ont été retirés.
+    npm install
+    npm run dev
+
+The portfolio includes selected projects, technical skills and contact information.
