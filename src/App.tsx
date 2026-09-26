@@ -9,6 +9,8 @@ import { Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 
 const queryClient = new QueryClient();
 
+const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 type Project = {
   id: string;
   number: string;
@@ -145,10 +147,10 @@ function Home() {
         </header>
         <div className="container hero-inner">
           <div className="hero-copy">
-            <div className="hero-kicker"><span className="live-dot" aria-hidden="true" /> Full-Stack Developer · AI Engineer</div>
+            <div className="hero-kicker"><span className="live-dot" aria-hidden="true" /> AI Engineer · Full-Stack Developer</div>
             <h1>Building with <em>curiosity</em> &amp; care.</h1>
             <p className="hero-lede">
-              I&apos;m Sarah, a Full-Stack Developer and AI Engineer turning ideas into reliable applications and intelligent solutions.
+              I&apos;m Sarah, an AI Engineer and Full-Stack Developer turning ideas into reliable applications and intelligent solutions.
             </p>
             <div className="hero-actions">
               <a className="button-primary" href="#work" data-testid="button-explore-work">Explore my work <ArrowDown size={15} /></a>
@@ -179,7 +181,7 @@ function Home() {
           </div>
           <div className="intro-copy">
             <p data-testid="text-profile">
-                I&apos;m a Full-Stack Developer and AI Engineer focused on building reliable digital products and intelligent solutions. I turn complex ideas into practical applications that solve real-world problems.
+                I&apos;m an AI Engineer and Full-Stack Developer focused on building reliable digital products and intelligent solutions. I turn complex ideas into practical applications that solve real-world problems.
             </p>
             <div className="intro-note"><span aria-hidden="true">✳</span><span>Currently completing a Master&apos;s degree in Artificial Intelligence at USTHB, where I explore how research can become practical and useful solutions.</span></div>
           </div>
@@ -256,7 +258,7 @@ function Home() {
             {selectedProject.report && (
   <a
     className="button-primary project-report-link"
-    href={selectedProject.report}
+    href={publicAsset(selectedProject.report)}
     target="_blank"
     rel="noreferrer"
   >
@@ -278,7 +280,7 @@ function Home() {
     {selectedProject.screenshots.map((screenshot, index) => (
       <figure key={screenshot}>
         <img
-          src={screenshot}
+          src={publicAsset(screenshot)}
           alt={`${selectedProject.title} — capture ${index + 1}`}
           loading="lazy"
         />
@@ -360,7 +362,7 @@ function Home() {
           <div>
             <div className="eyebrow">06 / Find me</div>
             <h2 className="section-title">Let&apos;s make<br /><em>something useful.</em></h2>
-            <p className="contact-copy">I&apos;m currently looking for an opportunity as a Full-Stack Developer or AI Engineer. If you are building a thoughtful product or exploring applied AI, I&apos;d be glad to connect.</p>
+            <p className="contact-copy">I&apos;m currently looking for an opportunity as an AI Engineer or Full-Stack Developer. If you are building a thoughtful product or exploring applied AI, I&apos;d be glad to connect.</p>
           </div>
           <div className="contact-links">
             <a className="contact-link" href="https://github.com/SarahAR-dev" target="_blank" rel="noreferrer" data-testid="link-github"><span><Github size={15} aria-hidden="true" /> <span className="sr-only">GitHub: </span>github.com/SarahAR-dev</span><ArrowUpRight size={16} /></a>
@@ -368,7 +370,7 @@ function Home() {
           </div>
         </div>
         <div className="container footer">
-          <span>© Sarah Aribi · Full-Stack Developer &amp; AI Engineer</span>
+          <span>© Sarah Aribi · AI Engineer &amp; Full-Stack Developer</span>
           <span>Algeria · open to what&apos;s next</span>
         </div>
       </section>
