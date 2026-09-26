@@ -132,7 +132,7 @@ function Home() {
               <a href="#about" data-testid="link-about" onClick={closeMenu}>About</a>
               <a href="#contact" className="nav-contact" data-testid="link-contact-nav" onClick={closeMenu}>Let&apos;s connect</a>
               <a
-  href="/cv/sarah-aribi-cv.pdf"
+  href={`${import.meta.env.BASE_URL}cv/sarah-aribi-cv.pdf`}
   className="nav-contact nav-cv"
   download
   onClick={closeMenu}
