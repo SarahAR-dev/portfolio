@@ -138,17 +138,17 @@ function Home() {
   onClick={closeMenu}
   data-testid="link-download-cv"
 >
-  Télécharger mon CV
+  Download my CV
 </a>
             </nav>
           </div>
         </header>
         <div className="container hero-inner">
           <div className="hero-copy">
-            <div className="hero-kicker"><span className="live-dot" aria-hidden="true" /> Full-Stack Developer · AI in progress</div>
+            <div className="hero-kicker"><span className="live-dot" aria-hidden="true" /> Full-Stack Developer · AI Engineer</div>
             <h1>Building with <em>curiosity</em> &amp; care.</h1>
             <p className="hero-lede">
-              I&apos;m Sarah, a Full-Stack Developer interested in reliable web and mobile applications — and increasingly, the intelligence behind them.
+              I&apos;m Sarah, a Full-Stack Developer and AI Engineer building reliable web and mobile applications, intelligent systems, and thoughtful digital products.
             </p>
             <div className="hero-actions">
               <a className="button-primary" href="#work" data-testid="button-explore-work">Explore my work <ArrowDown size={15} /></a>
@@ -179,7 +179,7 @@ function Home() {
           </div>
           <div className="intro-copy">
             <p data-testid="text-profile">
-              Développeuse Full-Stack, je m’intéresse à la conception d’applications web et mobiles fiables et utiles. Sérieuse, curieuse et motivée, je recherche une opportunité professionnelle en développement logiciel pour contribuer à des projets concrets et évoluer au sein d’une équipe.
+                I&apos;m a Full-Stack Developer and AI Engineer interested in designing reliable web and mobile applications and building useful intelligent systems. Serious, curious, and motivated, I&apos;m looking for an opportunity where I can bring both software engineering and artificial intelligence to meaningful projects.
             </p>
             <div className="intro-note"><span aria-hidden="true">✳</span><span>Currently completing a Master 2 in Artificial Intelligence at USTHB. Based in Algeria, open to development roles locally and internationally.</span></div>
           </div>
@@ -360,7 +360,7 @@ function Home() {
           <div>
             <div className="eyebrow">06 / Find me</div>
             <h2 className="section-title">Let&apos;s make<br /><em>something useful.</em></h2>
-            <p className="contact-copy">I&apos;m currently looking for a professional opportunity in software development. If you are building a thoughtful product or exploring applied AI, I&apos;d be glad to connect.</p>
+            <p className="contact-copy">I&apos;m currently looking for an opportunity as a Full-Stack Developer or AI Engineer. If you are building a thoughtful product or exploring applied AI, I&apos;d be glad to connect.</p>
           </div>
           <div className="contact-links">
             <a className="contact-link" href="https://github.com/SarahAR-dev" target="_blank" rel="noreferrer" data-testid="link-github"><span><Github size={15} aria-hidden="true" /> <span className="sr-only">GitHub: </span>github.com/SarahAR-dev</span><ArrowUpRight size={16} /></a>
@@ -368,7 +368,7 @@ function Home() {
           </div>
         </div>
         <div className="container footer">
-          <span>© Sarah Aribi · Développeuse Full-Stack</span>
+          <span>© Sarah Aribi · Full-Stack Developer &amp; AI Engineer</span>
           <span>Algeria · open to what&apos;s next</span>
         </div>
       </section>
