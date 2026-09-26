@@ -148,7 +148,7 @@ function Home() {
             <div className="hero-kicker"><span className="live-dot" aria-hidden="true" /> Full-Stack Developer · AI Engineer</div>
             <h1>Building with <em>curiosity</em> &amp; care.</h1>
             <p className="hero-lede">
-              I&apos;m Sarah, a Full-Stack Developer and AI Engineer building reliable web and mobile applications, intelligent systems, and thoughtful digital products.
+              I&apos;m Sarah, a Full-Stack Developer and AI Engineer turning ideas into reliable applications and intelligent solutions.
             </p>
             <div className="hero-actions">
               <a className="button-primary" href="#work" data-testid="button-explore-work">Explore my work <ArrowDown size={15} /></a>
@@ -179,9 +179,9 @@ function Home() {
           </div>
           <div className="intro-copy">
             <p data-testid="text-profile">
-                I&apos;m a Full-Stack Developer and AI Engineer interested in designing reliable web and mobile applications and building useful intelligent systems. Serious, curious, and motivated, I&apos;m looking for an opportunity where I can bring both software engineering and artificial intelligence to meaningful projects.
+                I&apos;m a Full-Stack Developer and AI Engineer focused on building reliable digital products and intelligent solutions. I turn complex ideas into practical applications that solve real-world problems.
             </p>
-            <div className="intro-note"><span aria-hidden="true">✳</span><span>Currently completing a Master 2 in Artificial Intelligence at USTHB. Based in Algeria, open to development roles locally and internationally.</span></div>
+            <div className="intro-note"><span aria-hidden="true">✳</span><span>Currently completing a Master&apos;s degree in Artificial Intelligence at USTHB, where I explore how research can become practical and useful solutions.</span></div>
           </div>
         </div>
       </section>
